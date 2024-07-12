@@ -47,4 +47,6 @@ Thumbs.db
 application-*.yml
 
 venv
-*-lock.json
+
+# Ignore Node.js package lock file
+frontend/package-lock.json
