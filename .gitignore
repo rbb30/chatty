@@ -1,0 +1,50 @@
+# IDE files
+.idea/
+*.iml
+
+# Build output
+build/
+bin/
+target/
+
+# Dependencies
+node_modules/
+.gradle/
+.mvn/
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+docker-compose*.yml
+docker-compose*.yaml
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE-specific settings (adjust as needed)
+.vscode/
+*.code-workspace
+*.classpath
+*.project
+.settings/
+*.launch
+*.che/
+*.vscode/
+
+# Ignore local configuration files
+application-*.yml
+
+venv
+*-lock.json

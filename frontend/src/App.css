@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.chat-window {
+  border: 1px solid #ccc;
+  height: 300px;
+  overflow-y: scroll;
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: calc(100% - 22px);
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+}
